@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Story+Script&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.baseColor {
+  color: #D0FF71;
+
+}
+
+body {
+
+  background: #0E0F11;
+  font-family: "Poppins", "sans-serif";
+  color: white;
+  font-weight: 400;
+}
