@@ -20,7 +20,7 @@ function App() {
   //LENIS FOR SMOOTH SCROOL
   useEffect(() => {
     const lenis = new Lenis({
-      duration: 1.5, // scroll speed
+      duration: 2, // scroll speed
       easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)), // easing function
       smoothWheel: true, // smooth mouse wheel
       smoothTouch: true, // mobile me disable/enable

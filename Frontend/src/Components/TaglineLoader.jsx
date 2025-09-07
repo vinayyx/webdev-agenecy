@@ -5,7 +5,7 @@ export default function TaglineLoader({ onFinish }) {
   const [show, setShow] = useState(true);
   const taglineRef = useRef(null);
 
-  const tagline = "Crafting Beautiful Web Experiences";
+  const tagline = "Crafting Beautiful Web  Experiences";
 
   useEffect(() => {
     const letters = taglineRef.current.querySelectorAll("span");

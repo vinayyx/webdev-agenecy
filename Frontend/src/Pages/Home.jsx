@@ -4,6 +4,7 @@ import HeroSection1 from "../Components/HeroSection1";
 import HeroSection2 from "../Components/HeroSection2";
 import AgencyStrip from "../Components/AgencyStrip";
 import Exprience from "../Components/Exprience";
+import Card from "../Components/Card";
 
 function Home() {
   return (
@@ -13,6 +14,7 @@ function Home() {
       <HeroSection2/>
       <AgencyStrip/>
       <Exprience/>
+      <Card/>
 
       
     </div>
