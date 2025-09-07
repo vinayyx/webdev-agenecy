@@ -1,13 +1,14 @@
 import React from "react";
 import { ArrowUpRight } from "lucide-react";
+import SlidingPanels from "./SlidingPanels";
 
 function Card() {
   return (
     <div className="w-full flex flex-col justify-center items-center gap-9 mt-14 md:mt-0 bg-[#18191B] md:px-28 px-4">
       {/* Top Section */}
-      <div className="w-full flex flex-col md:flex-row h-auto md:h-[35vh] ">
+      <div className="w-full flex flex-col md:mt0 mt-10 md:flex-row h-auto md:h-[35vh] ">
         {/* Left Side Text */}
-        <div className="w-full md:w-1/2 gap-4 flex flex-col md:justify-center  justify-start items-start  h-full   ">
+        <div className="w-full md:w-1/2 gap-4 flex flex-col md:justify-center  justify-center items-start  h-full   ">
           <h1 className="font-font2 text-left font-bold text-[#D0FF71] text-sm sm:text-base md:text-lg">
             Agency Services
           </h1>
@@ -32,7 +33,11 @@ function Card() {
       </div>
 
       {/* Bottom Section */}
-      <div className="w-full h-[50vh] sm:h-[60vh] md:h-[75vh] "></div>
+
+      <SlidingPanels/>
+    
+
+
     </div>
   );
 }
