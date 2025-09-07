@@ -2,7 +2,7 @@ import React from "react";
 
 function HeroSection1() {
   return (
-    <div className="w-full  mt-5 md:h-[50vh] md:mt-7 flex flex-col md:flex-row relative">
+    <div className="w-full md:px-28 px-1  mt-5 md:h-[50vh] md:mt-7 flex flex-col md:flex-row relative">
       {/* Left Section */}
       <div className="relative w-full md:w-[65%]  md:h-full flex items-center md:items-end justify-center md:justify-start p-3 sm:p-4">
         <h1 className="leading-snug text-left font-bold text-3xl sm:text-4xl md:text-8xl md:absolute md:bottom-5  md:text-left">

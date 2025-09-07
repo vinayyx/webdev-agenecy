@@ -56,7 +56,7 @@ function App() {
       {" "}
       {loading && <Loader />}
       {Taglineloading && <TaglineLoader />}
-      <div className="md:px-28 px-1 ">
+      <div className="">
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />

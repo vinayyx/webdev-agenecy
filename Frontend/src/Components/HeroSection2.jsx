@@ -4,7 +4,7 @@ import girlImage from "../assets/herosection2 girl.png";
 
 function HeroSection2() {
   return (
-    <div className="w-full flex flex-col md:flex-row gap-4 mt-10 md:mt-[5vw]">
+    <div className="w-full md:px-28 px-1  flex flex-col md:flex-row gap-4 mt-10 md:mt-[5vw]">
       {/* Left Section */}
       <div className="w-full md:w-[65%] min-h-[30vh] md:h-[85vh]">
         <img
