@@ -12,7 +12,7 @@ function Experience() {
             Creative Digital Agency
           </h1>
           <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold leading-tight">
-            Agenxis empowering brands innovate with purpose
+            Gentixx empowering brands innovate with purpose
           </h1>
         </div>
 
