@@ -8,6 +8,7 @@ import Card from "../Components/Card";
 import Gallary from "../Components/Gallary";
 import Brands from "../Components/Brands";
 import Testimonial from "../Components/Testimonial";
+import Highlights from "../Components/Highlights";
 
 function Home() {
   return (
@@ -21,6 +22,7 @@ function Home() {
       <Gallary/>
       <Brands/>
       <Testimonial/>
+      <Highlights/>
 
       
     </div>

@@ -69,11 +69,13 @@ function Navbar() {
     <div className="flex justify-between md:px-28  items-center py-6 px-5 relative">
       {/* Logo */}
       <div>
-        <img
+      {/* <img
           src="https://agenxis-html.netlify.app/assets/images/logo.svg"
           alt="Logo"
           className="h-8"
-        />
+        /> */} 
+
+        <h1 className="font-bold text-xl md:text-3xl text-[#D0FF71] " > Gentixx</h1>
       </div>
 
       {/* Mobile: Hamburger */}
