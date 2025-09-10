@@ -5,6 +5,9 @@ import HeroSection2 from "../Components/HeroSection2";
 import AgencyStrip from "../Components/AgencyStrip";
 import Exprience from "../Components/Exprience";
 import Card from "../Components/Card";
+import Gallary from "../Components/Gallary";
+import Brands from "../Components/Brands";
+import Testimonial from "../Components/Testimonial";
 
 function Home() {
   return (
@@ -15,6 +18,9 @@ function Home() {
       <AgencyStrip/>
       <Exprience/>
       <Card/>
+      <Gallary/>
+      <Brands/>
+      <Testimonial/>
 
       
     </div>

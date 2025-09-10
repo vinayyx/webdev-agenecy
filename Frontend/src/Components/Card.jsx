@@ -34,7 +34,12 @@ function Card() {
 
       {/* Bottom Section */}
 
-      <SlidingPanels/>
+     
+     <div className="w-full  md:h-[105vh] mb-8 flex justify-center items-center" >
+    
+     <SlidingPanels/>
+
+     </div>
     
 
 
