@@ -6,7 +6,7 @@ function Gallary() {
     <div className="md:px-28 px-4 w-full bg-[#0E0F11]">
       <div className="w-full flex flex-col justify-between  md:mt0 mt-10 md:flex-row h-auto md:h-[35vh] ">
         {/* Left Side Text */}
-        <div className="w-full   md:w-1/2 gap-4 flex flex-col md:justify-between   justify-between items-start  h-full   ">
+        <div className="w-full md:w-1/2 gap-4 flex flex-col md:justify-center  justify-center items-start  h-full">
           <h1 className="font-font2 text-left font-bold text-[#D0FF71] text-sm sm:text-base md:text-lg">
             Gallery
           </h1>
