@@ -6,11 +6,11 @@ function Testimonial() {
     <div className="w-full flex flex-col gap-8   py-10 md:py-24 px-4 md:px-28">
       <div className="w-full md:w-1/2 gap-4 flex flex-col md:justify-center  justify-center items-start  h-full ">
         {/* Left Side Text */}
-        <div className="w-full md:w-1/2 flex  flex-col gap-4">
+        <div className="w-full  md:w-full flex  flex-col gap-4">
           <h1 className="font-font2 font-bold text-[#D0FF71] text-sm sm:text-base md:text-lg">
             Client Review
           </h1>
-          <h1 className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-bold leading-tight text-white">
+          <h1 className="text-2xl  sm:text-3xl md:text-5xl lg:text-6xl font-bold leading-tight text-white">
             Capture attention create impact
           </h1>
         </div>
