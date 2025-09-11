@@ -31,8 +31,8 @@ export default function TestimonialCards() {
   ];
 
   return ( 
-    <div className="w-full py-10  md:py-16 ">
-      <div className="grid grid-cols-1    sm:grid-cols-2 lg:grid-cols-4 gap-7 place-items-center">
+    <div className="w-full py-10  md:py-10 ">
+      <div className="grid grid-cols-1    sm:grid-cols-2 lg:grid-cols-4 gap-5 place-items-center">
         {testimonials.map((item, idx) => (
           <div
             key={idx}

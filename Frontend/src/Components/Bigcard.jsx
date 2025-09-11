@@ -10,7 +10,7 @@ import circle from "../assets/circleArrow.png";
 
 
 
-function Card({ image, title }) {
+ export function Card({ image, title }) {
   const cardRef = useRef(null);
   const imgRef = useRef(null);
   const circleRef = useRef(null);
