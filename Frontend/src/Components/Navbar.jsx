@@ -66,7 +66,7 @@ function Navbar() {
   };
 
   return (
-    <div className="flex justify-between md:px-28  items-center py-6 px-5 relative">
+    <div className="flex justify-between md:px-28 z-50 items-center py-6 px-5 relative">
       {/* Logo */}
       <div>
       {/* <img
