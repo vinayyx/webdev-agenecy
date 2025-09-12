@@ -3,7 +3,7 @@ import React from "react";
 
 function Hero() {
   return (
-    <div className="w-full flex justify-start items-center h-auto md:h-[70vh] md:px-28 px-4 py-10">
+    <div className="w-full flex justify-start items-center h-auto md:h-[70vh]  md:px-28 px-4 py-10">
       <div className="flex gap-5 flex-col justify-center items-start">
         {/* Subtitle */}
         <h1 className="text-sm sm:text-base md:text-xl text-[#D0FF71]">
