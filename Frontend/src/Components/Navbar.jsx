@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 import { NavLink, useLocation } from "react-router-dom";
 import { ArrowUpRight, ChevronDown, Menu, X } from "lucide-react";
 import gsap from "gsap";
+import logo from "../assets/Xyntech.png"
 
 function Navbar() {
   const [ServiceOpen, setServiceOpen] = useState(false);
@@ -66,16 +67,13 @@ function Navbar() {
   };
 
   return (
-    <div className="flex justify-between md:px-28 z-50 items-center py-6 px-5 relative">
+    <div className="flex justify-between md:px-28 z-10 items-center py-6 px-5 relative">
       {/* Logo */}
-      <div>
-      {/* <img
-          src="https://agenxis-html.netlify.app/assets/images/logo.svg"
-          alt="Logo"
-          className="h-8"
-        /> */} 
+      <div className="flex">
+      
+         
 
-        <h1 className="font-bold text-xl md:text-3xl text-[#D0FF71] " > Gentixx</h1>
+        <h1 className="font-bold text-xl md:text-3xl text-[#D0FF71] " > Xyntech</h1>
       </div>
 
       {/* Mobile: Hamburger */}
@@ -243,11 +241,11 @@ function Navbar() {
       {/* Sidebar (Mobile) */}
       <div
         ref={sidebarRef}
-        className="fixed top-0 right-0 h-full w-64 bg-black shadow-lg z-50 p-6 translate-x-full"
+        className="fixed top-0 right-0 h-full w-64 bg-black shadow-lg z-10 p-6 translate-x-full"
       >
         <div className="flex justify-between items-center mb-8">
           <img
-            src="https://agenxis-html.netlify.app/assets/images/logo.svg"
+            src={logo}
             alt="Logo"
             className="h-8"
           />

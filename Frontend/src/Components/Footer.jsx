@@ -4,7 +4,7 @@ export default function Footer() {
       <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-10 py-10 border-b border-gray-500/30">
         {/* Left section */}
         <div className="w-full md:w-1/3 max-w-96">
-          <h1 className="font-bold text-3xl text-white">Agenttix</h1>
+          <h1 className="font-bold text-3xl text-white">Xyntech</h1>
           <p className="mt-6 text-sm text-gray-500">
             We build modern, scalable, and visually stunning websites that grow
             your business
@@ -94,7 +94,7 @@ export default function Footer() {
 
       {/* Bottom copyright */}
       <p className="py-4 text-center text-xs md:text-sm text-gray-500">
-        © 2025 Agenttix. All Rights Reserved.
+        © 2025 Xyntech. All Rights Reserved.
       </p>
     </footer>
   );

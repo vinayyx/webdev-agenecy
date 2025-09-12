@@ -21,7 +21,7 @@ function Home() {
       <HeroSection2/>
       <AgencyStrip/>
       <Exprience/>
-      <Card/>
+      <Card bg={"[#18191B]"} />
       <Gallary/>
       <Brands/>
       <Testimonial/>

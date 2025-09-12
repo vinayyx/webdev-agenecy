@@ -111,7 +111,7 @@ const TestimonalAboutus = () => {
             }
         `}</style>
 
-      <div className="  bg-black md:px-28 px-4 py-10">
+      <div className="  bg-black  md:px-28  py-10">
         <div className="w-full md:w-1/2 flex justify-center">
           <div className="flex gap-6 flex-col justify-center items-start">
             {/* Subtitle */}
@@ -138,7 +138,7 @@ const TestimonalAboutus = () => {
           <div className="absolute right-0 top-0 h-full w-20 md:w-40 z-10 pointer-events-none "></div>
         </div>
 
-        <div className="marquee-row w-full mx-auto md:px-28 px-4 overflow-hidden relative">
+        <div className="marquee-row w-full mx-auto  overflow-hidden relative">
           <div className="absolute left-0 top-0 h-full w-20 z-10 pointer-events-none "></div>
           <div className="marquee-inner marquee-reverse flex transform-gpu min-w-[200%] pt-10 pb-5">
             {[...cardsData, ...cardsData].map((card, index) => (

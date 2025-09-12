@@ -2,9 +2,9 @@ import React from "react";
 import { ArrowUpRight } from "lucide-react";
 import SlidingPanels from "./SlidingPanels";
 
-function Card() {
+function Card({bg}) {
   return (
-    <div className="w-full flex flex-col justify-center items-center gap-9 mt-14 md:mt-0 bg-[#18191B] md:px-28 px-4">
+    <div className={`w-full flex flex-col justify-center items-center gap-9 mt-14 md:mt-0 bg-${bg} md:px-28 px-4`}>
       {/* Top Section */}
       <div className="w-full flex flex-col md:mt0 mt-10 md:flex-row h-auto md:h-[35vh] ">
         {/* Left Side Text */}

@@ -41,7 +41,7 @@ export default function TaglineLoader({ onFinish }) {
   if (!show) return null;
 
   return (
-    <div className="fixed inset-0 flex items-center justify-center bg-black z-50">
+    <div className="fixed inset-0 flex items-center justify-center bg-black z-20">
       <h1
         ref={taglineRef}
         className="text-[#D0FF71] font-poppins text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-center tracking-wide leading-tight"

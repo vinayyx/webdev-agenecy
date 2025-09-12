@@ -20,7 +20,7 @@ function Header({title}) {
       
                 {/* Main title inside parent */}
                 <div className="relative flex items-center justify-center w-[80vw] sm:w-[50vw] h-[20vw] sm:h-[12vw] border-[2px] border-white border-opacity-15 rounded-full">
-                  <h1 className="text-3xl sm:text-5xl md:text-7xl lg:text-8xl font-bold tracking-wide z-10">
+                  <h1 className="text-3xl sm:text-5xl md:text-7xl lg:text-8xl font-bold tracking-wide z-8 ">
                    {title}
                   </h1>
                 </div>

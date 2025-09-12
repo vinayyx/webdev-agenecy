@@ -12,7 +12,7 @@ function AboutUs() {
     <div>
       <Header title={"About Us"} />
       <Hero />
-      <div className="md:px-28 px-4">
+      <div className="">
         <Brands />
       </div>
       <Info/>
