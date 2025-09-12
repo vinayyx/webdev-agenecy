@@ -150,7 +150,7 @@ function Navbar() {
                     onClick={handleLinkClick}
                     className="hover:text-[#D0FF71] cursor-pointer"
                   >
-                    Service Details
+                    Pricing
                   </NavLink>
                 </ul>
 
@@ -172,7 +172,7 @@ function Navbar() {
                   : "hover:text-[#D0FF71] cursor-pointer flex items-center gap-1"
               }
             >
-              Blogs
+              Portfolio
               <ChevronDown
                 className={`h-5 w-5 transition-transform duration-300 ${
                   BlogOpen ? "rotate-180 text-[#D0FF71]" : "rotate-0"
@@ -186,22 +186,15 @@ function Navbar() {
               >
                 <div className=" bg-black mt-4 w-40 border border-gray-800 shadow-lg p-2 rounded-md ">
 
-                  <ul className="flex flex-col text-white">
+              
                   <NavLink
                     to="/blog"
                     onClick={handleLinkClick}
                     className="hover:text-[#D0FF71] border-b border-gray-800 pb-2 cursor-pointer"
                   >
-                    Blogs
+                    Portfolio
                   </NavLink>
-                  <NavLink
-                    to="/blog-details"
-                    onClick={handleLinkClick}
-                    className="hover:text-[#D0FF71] cursor-pointer"
-                  >
-                    Blogs Details
-                  </NavLink>
-                </ul>
+               
 
 
                 </div>
@@ -264,13 +257,10 @@ function Navbar() {
             Services
           </NavLink>
           <NavLink to="/service-details" onClick={handleLinkClick}>
-            Service Details
+           Pricing
           </NavLink>
           <NavLink to="/blog" onClick={handleLinkClick}>
-            Blogs
-          </NavLink>
-          <NavLink to="/blog-details" onClick={handleLinkClick}>
-            Blogs Details
+            Portfolio
           </NavLink>
           <NavLink to="/contact" onClick={handleLinkClick}>
             Contact
