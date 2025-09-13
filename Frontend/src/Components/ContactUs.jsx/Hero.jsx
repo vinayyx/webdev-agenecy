@@ -1,7 +1,37 @@
 import React from "react";
 import { Clock, Mail, MapPin, Phone } from "lucide-react";
+import toast from "react-hot-toast";
 
 function Hero() {
+
+
+   const onSubmit = async (event) => {
+    event.preventDefault();
+
+    try {
+      const formData = new FormData(event.target);
+      formData.append("access_key", "ef1b7879-bab3-48ba-be03-09ca0487fd3e");
+
+      const response = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        body: formData,
+      });
+
+      const data = await response.json();
+
+      if (data.success) {
+        toast.success("Thank You for contacting");
+        event.target.reset();
+      } else {
+        toast.error("Error", data);
+      }
+    } catch (error) {
+      toast.error(error.message);
+    }
+  };
+  
+
+
   return (
     <div className="w-full min-h-[100vh] flex justify-center items-center md:px-16 px-6 bg-black py-10">
       <div className="w-full flex flex-col md:flex-row justify-between items-center gap-10 h-auto md:h-[90%]">
@@ -17,10 +47,13 @@ function Hero() {
           </div>
 
           {/* Form */}
-          <form className="flex flex-col items-center md:items-start w-full gap-6">
+          <form
+          onSubmit={onSubmit}
+           className="flex flex-col items-center md:items-start w-full gap-6">
             <div className="w-full sm:w-[90%] md:w-[80%] border-b border-gray-400">
               <input
                 type="text"
+                name="name"
                 placeholder="Your Name"
                 className="w-full bg-transparent outline-none text-[#D0FF71] py-2 placeholder-gray-400"
               />
@@ -29,6 +62,7 @@ function Hero() {
             <div className="w-full sm:w-[90%] md:w-[80%] border-b border-gray-400">
               <input
                 type="email"
+                name="email"
                 placeholder="Your Email"
                 className="w-full bg-transparent outline-none text-[#D0FF71] py-2 placeholder-gray-400"
               />
@@ -37,6 +71,7 @@ function Hero() {
             <div className="w-full sm:w-[90%] md:w-[80%] border-b border-gray-400">
               <input
                 type="text"
+                name="message"
                 placeholder="Your Message"
                 className="w-full bg-transparent outline-none text-[#D0FF71] py-2 placeholder-gray-400"
               />

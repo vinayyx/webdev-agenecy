@@ -17,8 +17,7 @@ function HeroSection1() {
       <div className="relative w-full md:w-[35%]  md:h-full flex items-center justify-center md:items-end p-3 sm:p-4">
         <div className="md:absolute md:right-0 md:bottom-0 w-full md:w-[80%]">
           <p className="text-sm text-left sm:text-base leading-relaxed  md:text-left">
-            Connecting businesses with their audiences and individuals with
-            their dreams. Our path forward is one of continuous growth.
+            We don’t just build websites, we build experiences that grow businesses and earn trust. With clean code, modern design, and scalable solutions, our goal is to turn your vision into a digital presence that connects, engages, and delivers results.
           </p>
         </div>
       </div>

@@ -1,7 +1,10 @@
 import { ArrowUpRight } from "lucide-react";
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 function Hero() {
+
+  const navigate = useNavigate()
   return (
     <div className="w-full flex justify-start items-center h-auto md:h-[70vh]  md:px-28 px-4 py-10">
       <div className="flex gap-5 flex-col justify-center items-start">
@@ -13,13 +16,15 @@ function Hero() {
         {/* Main Heading */}
         <div className="w-full md:w-[60vw]">
           <h1 className="text-left text-2xl sm:text-3xl md:text-5xl font-bold leading-snug md:leading-[1.2]">
-            Connecting businesses with their audiences and individuals with
-            their dreams. Our path forward is one of continuous growth
+            We combine expertise, innovation, and a client-first approach to
+            deliver solutions that drive growth, build trust, and make a lasting
+            impact
           </h1>
         </div>
 
         {/* Button */}
         <button
+         onClick={()=>navigate("/contact")}
           className="group mt-8 sm:mt-10 bg-[#D0FF71] rounded-full px-4 sm:px-6 py-2 sm:py-3 flex gap-2 items-center text-sm sm:text-base text-black border border-transparent 
           hover:bg-black hover:border-[#D0FF71] hover:text-[#D0FF71] 
           transition-all duration-300 ease-in-out"
@@ -29,8 +34,6 @@ function Hero() {
             <ArrowUpRight size={18} />
           </span>
         </button>
-
-        
       </div>
     </div>
   );

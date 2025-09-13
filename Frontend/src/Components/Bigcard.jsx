@@ -97,14 +97,14 @@ function Bigcard() {
     <div className="w-full mt-6">
       <div className="w-full relative flex flex-col md:flex-row justify-center gap-10 md:gap-20 items-center py-8 min-h-[100vh] rounded-2xl">
         
-          <Card image={laptop} title="Creative Pulse Studio" />
-          <Card image={iphone} title="Creative Pulse Studio" />
+          <Card image={laptop} title="UI/UX Design" />
+          <Card image={iphone} title="App Development" />
         
       </div>
       <div className="w-full relative flex flex-col md:flex-row justify-center gap-10 md:gap-20 items-center py-8 min-h-[100vh] rounded-2xl">
         
-          <Card image={macbook} title="Creative Pulse Studio" />
-          <Card image={paper} title="Creative Pulse Studio" />
+          <Card image={macbook} title="Web Development" />
+          <Card image={paper} title="Brand Design" />
         
       </div>
     </div>

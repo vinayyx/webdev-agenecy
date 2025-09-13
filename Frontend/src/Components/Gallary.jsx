@@ -19,8 +19,7 @@ function Gallary() {
         <div className="relative w-full  md:w-[25%]  flex justify-center md:justify-end items-center">
           <div className="md:absolute right-8 md:bottom-3 md:right-1 flex flex-col gap-2 text-left">
             <p className="text-sm sm:text-base">
-              Connecting businesses with their audiences and individuals with
-              their dreams. Our path forward
+              We craft impactful digital experiences that leave a lasting impression and set your brand apart.
             </p>
           </div>
         </div>

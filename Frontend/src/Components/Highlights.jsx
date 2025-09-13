@@ -31,8 +31,7 @@ function Highlights() {
           <div className="w-full md:w-[50%] relative h-[90%] flex items-center md:items-end justify-center md:justify-end">
             <div className="w-full sm:w-[80%] md:w-[60%] text-center md:text-left">
               <p className="text-base sm:text-lg md:text-xl">
-                Connecting businesses with their audiences and individuals with
-                their dreams. Our path forward
+                Capturing and showcasing the key moments, achievements, and features that define your journey and make your story truly unforgettable
               </p>
             </div>
           </div>
