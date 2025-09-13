@@ -14,7 +14,7 @@ export default function PriceTable() {
             {
               service: "Web Development",
               advantage: "Custom, responsive web apps with modern stack",
-              price: "₹1500",
+              price: "₹15000",
             },
             {
               service: "Web Design",
@@ -24,7 +24,7 @@ export default function PriceTable() {
             {
               service: "SaaS / Custom Software",
               advantage: "Scalable solutions built for your business",
-              price: "₹3000",
+              price: "₹30000",
             },
             {
               service: "E-commerce",
