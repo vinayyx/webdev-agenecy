@@ -4,28 +4,28 @@ export default function TestimonialCards() {
   const testimonials = [
     {
       img: "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=600",
-      text: "Radiant made undercutting all of our competitors an absolute breeze.",
-      name: "John Doe",
-      role: "Content Marketing",
+      text: "They delivered a seamless SaaS solution that boosted our efficiency",
+      name: "Nishant",
+      role: "SassFlow",
     },
     {
       img: "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?q=80&w=600",
-      text: "Radiant made undercutting all of our competitors an absolute breeze.",
-      name: "Jane Smith",
-      role: "Content Marketing",
+      text: "Our online store was built perfectly—smooth, fast, and sales started growing instantly..",
+      name: "Sania",
+      role: "Lalufi",
     },
     {
       img: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=600&h=600&auto=format&fit=crop",
-      text: "Radiant made undercutting all of our competitors an absolute breeze.",
-      name: "Michael Lee",
-      role: "Content Marketing",
+      text: "Their strategies gave our brand amazing visibility and real business growth.",
+      name: "Ayush",
+      role: "Increation",
     },
 
      {
       img: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=600&h=600&auto=format&fit=crop",
-      text: "Radiant made undercutting all of our competitors an absolute breeze.",
-      name: "Michael Lee",
-      role: "Content Marketing",
+      text: "They created an engaging gaming experience that kept our users hooked.",
+      name: "Neeraj",
+      role: "Ninjagames",
     },
     
   ];

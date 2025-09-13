@@ -1,8 +1,10 @@
 import React from "react";
 import { ArrowUpRight } from "lucide-react";
 import SlidingPanels from "./../Utils/SlidingPanels";
+import { useNavigate } from "react-router-dom";
 
 function Card({bg}) {
+  const navigate = useNavigate()
   return (
     <div className={`w-full flex flex-col justify-center items-center gap-9 mt-14 md:mt-0 bg-${bg} md:px-28 px-4`}>
       {/* Top Section */}
@@ -20,6 +22,7 @@ function Card({bg}) {
         {/* Right Side Button */}
         <div className="w-full md:w-1/2 relative h-40 md:h-full  flex justify-center md:justify-end items-center md:items-end p-6">
           <button
+          onClick={()=>navigate("/services")}
             className="group bg-[#D0FF71] rounded-full px-6 py-3 flex gap-2 items-center text-black border border-transparent 
           hover:bg-black hover:border-[#D0FF71] hover:text-[#D0FF71] 
           transition-all duration-300 ease-in-out"

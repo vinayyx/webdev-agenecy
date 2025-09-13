@@ -12,7 +12,7 @@ function Experience() {
             Creative Digital Agency
           </h1>
           <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold leading-tight">
-            Gentixx empowering brands innovate with purpose
+            Xyntech empowering brands innovate with purpose
           </h1>
         </div>
 
@@ -38,8 +38,8 @@ function Experience() {
               Years of experience
             </h1>
             <p className="text-sm sm:text-base">
-              Connecting businesses with their audiences and individuals with
-              their dreams. Our path forward
+              5+ years of building not just websites, but trust and lasting
+              digital connections
             </p>
           </div>
         </div>

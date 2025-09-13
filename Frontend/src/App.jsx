@@ -11,6 +11,7 @@ import ContactUs from "./ContactUs";
 import Loader from "./Components/Loader";
 import Lenis from "@studio-freight/lenis";
 import TaglineLoader from "./Components/TaglineLoader";
+import ScrollToTop from "./Utils/ScrollToTop";
 
 function App() {
   const location = useLocation();
@@ -18,25 +19,30 @@ function App() {
   const [Taglineloading, setTaglineloading] = useState(true);
 
   //LENIS FOR SMOOTH SCROOL
-  useEffect(() => {
-    const lenis = new Lenis({
-      duration: 2, // scroll speed
-      easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)), // easing function
-      smoothWheel: true, // smooth mouse wheel
-      smoothTouch: true, // mobile me disable/enable
-    });
+ useEffect(() => {
+  const lenis = new Lenis({
+    duration: 2,
+    easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+    smoothWheel: true,
+    smoothTouch: true,
+  });
 
-    function raf(time) {
-      lenis.raf(time);
-      requestAnimationFrame(raf);
-    }
+  // global expose
+  window.lenis = lenis;
 
+  function raf(time) {
+    lenis.raf(time);
     requestAnimationFrame(raf);
+  }
 
-    return () => {
-      lenis.destroy(); // cleanup jab component unmount ho
-    };
-  }, []);
+  requestAnimationFrame(raf);
+
+  return () => {
+    lenis.destroy();
+    window.lenis = null;
+  };
+}, []);
+
 
   // Loader on initial load
   useEffect(() => {
@@ -58,6 +64,7 @@ function App() {
       {Taglineloading && <TaglineLoader />}
       <div className="">
         <Navbar />
+        <ScrollToTop /> 
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about-us" element={<AboutUs />} />
