@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 import { NavLink, useLocation, useNavigate } from "react-router-dom";
 import { ArrowUpRight, ChevronDown, Menu, X } from "lucide-react";
 import gsap from "gsap";
-import logo from "../assets/Xyntech.png"
+import logo from "../assets/Xyntech.jpg"
 
 
 function Navbar() {
