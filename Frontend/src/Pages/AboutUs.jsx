@@ -4,7 +4,7 @@ import Hero from "../Components/AboutUs/Hero";
 import Brands from "../Components/Brands";
 import Info from "../Components/AboutUs/Info";
 import AgencyStrip from "../Components/AgencyStrip";
-import TestimonalAboutus from "../Utils/TestimonalAboutus";
+import TestimonalAboutus from "../Components/TestimonalAboutus";
 import Footer from "../Components/Footer"
 
 function AboutUs() {
@@ -12,7 +12,7 @@ function AboutUs() {
     <div>
       <Header title={"About Us"} />
       <Hero />
-      <div className="">
+      <div className="md:px-28 px-4">
         <Brands />
       </div>
       <Info/>
