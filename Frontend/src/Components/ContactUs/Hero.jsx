@@ -52,8 +52,8 @@ function Hero() {
         </div>
 
         {/* Right Info Section */}
-        <div className="w-full md:w-[50%] flex justify-center items-center p-4 sm:p-6 md:p-5">
-          <div className="w-full sm:w-[90%] rounded-3xl bg-[#18191B] p-6 sm:p-8 flex flex-col gap-8 sm:gap-12 text-white">
+        <div className="w-full md:w-[50%] flex justify-center items-center   md:p-5">
+          <div className="w-full  rounded-3xl bg-[#18191B] p-6 sm:p-8 flex flex-col gap-8 sm:gap-12 text-white">
             <h1 className="text-2xl sm:text-3xl font-bold text-center md:text-left">
               Information
             </h1>
@@ -98,6 +98,8 @@ function Hero() {
           </div>
         </div>
       </div>
+
+      
     </div>
   );
 }

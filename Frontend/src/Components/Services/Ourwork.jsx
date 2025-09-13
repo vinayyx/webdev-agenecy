@@ -88,7 +88,7 @@ const WorkCard = ({ title, desc }) => {
 
 function Ourwork() {
   return (
-    <div className="w-full flex justify-center items-center  min-h-screen md:px-16 px-4 py-16">
+    <div className="w-full flex justify-center items-center  min-h-screen lg:px-16  py-16">
       <div className="w-full flex justify-center  items-center">
         <div className="w-full flex  flex-col justify-center items-center gap-20">
           <h1 className="font-bold text-[#D0FF71] text-3xl md:text-5xl text-center">
