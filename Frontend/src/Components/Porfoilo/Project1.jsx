@@ -2,6 +2,11 @@ import { ArrowUpRight } from "lucide-react";
 import React, { useRef, useEffect } from "react";
 import gsap from "gsap";
 import sassflow from "../../assets/sassflow.png";
+import learnytix from "../../assets/learnytix.png";
+import lalufi from "../../assets/lalufi.png";
+import Ninjagames from "../../assets/ningames.png";
+import Increation from "../../assets/increation.png";
+import Corsolo from "../../assets/corsolo.png";
 
 function Project1() {
   const imgRef = useRef(null);
@@ -13,6 +18,46 @@ function Project1() {
       link: "https://sassflow-9tta.vercel.app/",
       discription:
         "A SaaS platform enabling AI-powered image generation, title creation, and automated emails, offering businesses advanced creative and communication tools",
+    },
+
+    {
+      tittle: "Learnytix",
+      image: learnytix,
+      link: "https://learnytix.in/",
+      discription:
+        "Learnytix is a modern e-education platform that makes learning engaging and accessible. We offer a comprehensive library of video lessons, interactive quizzes, and personalized learning paths designed to help students master new subjects at their own pace. With live Q&A sessions and a supportive community, we empower learners to achieve their academic goals and develop a lifelong love for learning.",
+    },
+
+    {
+      tittle: "Lalufi",
+      image: lalufi,
+      link: "https://lalufi.com/",
+      discription:
+        "Lalufi is more than just a jewelry brand—it's a celebration of individuality and confidence. We believe that true beauty shines from within, and our pieces are designed to be a radiant extension of your unique personality.",
+    },
+
+    {
+      tittle: "Ninjagames",
+      image: Ninjagames,
+      link: "https://crazy-games-pi.vercel.app/mobile",
+      discription:
+        "NinjaGames is a free online gaming platform where you can play a vast library of games directly in your browser, with no downloads required. We offer a diverse collection of titles across popular genres like action, puzzle, adventure, and strategy. With NinjaGames, instant and accessible fun is always just a click away.",
+    },
+
+    {
+      tittle: "Increation",
+      image: Increation,
+      link: "https://increation.vercel.app/",
+      discription:
+        "Increation helps businesses grow online with creative digital marketing solutions. From social media campaigns to SEO and paid ads, we craft strategies that increase engagement, drive traffic, and boost sales.",
+    },
+
+    {
+      tittle: "Corsolo",
+      image: Corsolo,
+      link: "https://corsolo.com/",
+      discription:
+        "Corsolo is your one-stop e-commerce destination, offering premium products with quality, convenience, and trust. We deliver a seamless shopping experience with fast service and great deals.",
     },
   ];
 
@@ -33,10 +78,9 @@ function Project1() {
       {dummydata.map((data, index) => (
         <div
           key={index}
-          className="w-full  h-auto md:h-[100vh] md:px-16 px-6 md:py-16 py-10"
+          className="w-full  h-auto md:h-[100vh] md:px-16 px-6 md:py-10 py-5"
         >
           <div className="w-full flex bg-[#0E0F11] flex-col md:flex-row justify-between rounded-2xl p-4 items-center gap-8 h-full">
-            
             {/* Left Image */}
             <div className="w-full md:w-[50%] h-[250px] md:h-[90%] overflow-hidden rounded-2xl">
               <img
