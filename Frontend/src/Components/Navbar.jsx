@@ -1,8 +1,9 @@
 import React, { useEffect, useRef, useState } from "react";
-import { NavLink, useLocation } from "react-router-dom";
+import { NavLink, useLocation, useNavigate } from "react-router-dom";
 import { ArrowUpRight, ChevronDown, Menu, X } from "lucide-react";
 import gsap from "gsap";
 import logo from "../assets/Xyntech.png"
+
 
 function Navbar() {
   const [ServiceOpen, setServiceOpen] = useState(false);
@@ -12,6 +13,8 @@ function Navbar() {
   const menuRef = useRef(null);
   const BlogmenuRef = useRef(null);
   const sidebarRef = useRef(null);
+
+  const navigate = useNavigate()
 
   const location = useLocation();
 
@@ -219,7 +222,8 @@ function Navbar() {
 
       {/* Button (Desktop Only) */}
       <div className="hidden md:block">
-        <button
+        <button 
+          onClick={()=>navigate("/contact")}
           className="group bg-[#D0FF71] rounded-full px-6 py-2 flex gap-2 items-center text-black border border-transparent 
           hover:bg-black hover:border-[#D0FF71] hover:text-[#D0FF71] 
           transition-all duration-300 ease-in-out"

@@ -1,6 +1,6 @@
 import React from "react";
 import { ArrowUpRight } from "lucide-react";
-import SlidingPanels from "./SlidingPanels";
+import SlidingPanels from "./../Utils/SlidingPanels";
 
 function Card({bg}) {
   return (
