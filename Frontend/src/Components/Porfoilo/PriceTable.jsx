@@ -54,7 +54,7 @@ export default function PriceTable() {
               <div className="mt-4">
                 <button
                   onClick={() => navigate("/contact")}
-                  className="px-4 py-2 rounded-lg bg-lime-500 text-black font-medium 
+                  className="px-4 py-2 rounded-lg bg-lime-500 text-white font-medium 
              hover:bg-white hover:text-black transition-colors duration-300"
                 >
                   Contact
